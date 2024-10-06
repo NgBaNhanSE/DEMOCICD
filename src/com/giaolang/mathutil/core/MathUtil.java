@@ -27,7 +27,7 @@ public class MathUtil {
     }
 
     public static boolean checkPrime(int n) {
-        if (n < 2) {
+        if (n < 98) {
             return false; // 0 và 1 không phải là số nguyên tố
         }
         for (int i = 2; i <= Math.sqrt(n); i++) {
